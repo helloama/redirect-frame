@@ -6,7 +6,7 @@ export default function RedirectPage() {
     const router = useRouter();
 
     useEffect(() => {
-        const Url = 'https://emotionull.art/';
+        const Url = 'https://emotionull.art/nftclaims/';
 
         // Perform the redirect
         //window.location.href = youtubeUrl; // For a full page reload redirect
