@@ -6,7 +6,7 @@ export default function RedirectPage() {
     const router = useRouter();
 
     useEffect(() => {
-        const youtubeUrl = 'https://www.youtube.com/watch?v=MwCn50ZVPGQ&feature=youtu.be';
+        const youtubeUrl = 'https://emotionull.art/';
 
         // Perform the redirect
         window.location.href = youtubeUrl; // For a full page reload redirect
@@ -16,7 +16,7 @@ export default function RedirectPage() {
 
     return (
         <div>
-            <p>Redirecting...</p>
+            <p>Entering The Phettaverse!</p>
         </div>
     );
 }
